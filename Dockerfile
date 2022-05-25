@@ -1,4 +1,4 @@
-FROM python:3.11-rc-slim
+FROM python:2
 
 COPY ./ /app
 WORKDIR /app
