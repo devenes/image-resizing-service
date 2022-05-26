@@ -28,5 +28,5 @@ sudo pip install Pillow
 ```
 
 ```bash
-docker run --rm -i -t -p -d 8080:18080 image/name
+docker run --rm -i -t -d -p 8080:18080 image/name
 ```
