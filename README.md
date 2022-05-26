@@ -19,9 +19,14 @@ Returns the resized image, or an image of the original size if size is less than
 * `cf push`
 
 ## Installation of dependencies, for running locally (Ubuntu 14.04)
-```
+
+```bash
 sudo apt-get build-dep python-imaging
 sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
 sudo apt-get install python-pip
 sudo pip install Pillow
+```
+
+```bash
+docker run --rm -i -t -p -d 8080:18080 image/name
 ```
